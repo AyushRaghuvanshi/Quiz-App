@@ -305,17 +305,14 @@ class _QuestionsState extends State<Questions> {
                                       child: Padding(
                                         padding:
                                             const EdgeInsets.only(left: 20.0),
-                                        child: Flexible(
-                                          child: Center(
-                                            child: Text(
-                                              question!['options'][3],
-                                              overflow: TextOverflow.fade,
-                                              style: TextStyle(
-                                                  fontSize: 20,
-                                                  color: selected4
-                                                      ? Colors.white
-                                                      : Colors.black),
-                                            ),
+                                        child: Center(
+                                          child: Text(
+                                            question!['options'][3],
+                                            style: TextStyle(
+                                                fontSize: 20,
+                                                color: selected4
+                                                    ? Colors.white
+                                                    : Colors.black),
                                           ),
                                         ),
                                       ),
