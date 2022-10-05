@@ -17,4 +17,4 @@ Add multiple quizzes to the application. Users can select which one to take.    
 Enable users to make their own quiz.           
 Enable users to navigate through the questions.             (Done)
 Enable users to skip any question.                          (Done)
-<a href="www.google.com">Google Search</a>
+
